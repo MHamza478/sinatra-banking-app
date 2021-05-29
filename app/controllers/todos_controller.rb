@@ -8,6 +8,11 @@ class TodosController < ApplicationController
     erb :'todos/bank_account'
   end
 
+  get '/details' do
+    @account = Account.last
+    erb :'todos/details'
+  end
+
   post '/open-account' do  
     @account = Account.last
     if @account.present?

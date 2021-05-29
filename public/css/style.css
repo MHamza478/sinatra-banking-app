@@ -19,7 +19,7 @@ body {
 }
 
 .add-todo {
-  background-color: #BB5DF1;
+  background-image: url("/images/1.jpg");
   height: 100vh;
   overflow: hidden;
   width: 100%;
@@ -55,11 +55,11 @@ body {
 .add-todo__btn {
   width: 150px;
   height: 45px;
-  background-color: #E854B9;
+  background-color: #3260b5;
   color: #E4E4E4;
   margin-top: 25px;
   border-radius: 10px;
-  border: #E854B9 1px solid;
+  border: #1f171c 1px solid;
   font-size: 18px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -73,7 +73,14 @@ body {
 
 .list-todo {
   flex: 1 1 0;
-  background-color: #E854B9;
+  background-image: url("/images/5.jpg");
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+.list-todo1 {
+  flex: 1 1 0;
+  background-image: url("/images/3.jpg");
   overflow-y: scroll;
   height: 100vh;
 }
@@ -153,11 +160,11 @@ body {
   display: block;
   width: 100px;
   height: 45px;
-  background-color: #E854B9;
+  background-color: #3260b5;
   color: #E4E4E4;
   margin-top: 5px;
   border-radius: 10px;
-  border: #E854B9 1px solid;
+  border: #261821 1px solid;
   font-size: 18px;
   margin-right: 10px;
   box-shadow: -5px 3px 5px -4px rgba(0,0,0,0.39);
