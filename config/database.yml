@@ -5,3 +5,7 @@ development:
 test:
   adapter: postgresql
   database: db/test
+
+production:
+  adapter: postgresql
+  database: db/development
