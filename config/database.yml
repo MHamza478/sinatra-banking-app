@@ -1,7 +1,7 @@
 development:
   adapter: postgresql
-  database: db/development.sqlite3
+  database: db/development
 
 test:
   adapter: postgresql
-  database: db/test.sqlite3
+  database: db/test

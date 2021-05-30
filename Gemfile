@@ -4,7 +4,7 @@ gem 'activerecord', '4.2.5', :require => 'active_record'
 gem 'sinatra-activerecord', :require => 'sinatra/activerecord'
 
 gem 'sinatra'
-gem 'pg'
+gem 'pg', '~> 0.20'
 gem 'tux'
 gem 'rake'
 gem 'require_all'
@@ -20,5 +20,10 @@ group :test do
   gem 'capybara'
   gem 'rack-test'
   gem 'database_cleaner', git: 'https://github.com/bmabey/database_cleaner.git'
+end
+
+group :production do
+  gem 'pg', '~> 0.20'
+  gem 'rails_12factor'
 end
 

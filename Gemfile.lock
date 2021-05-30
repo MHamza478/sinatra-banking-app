@@ -47,7 +47,7 @@ GEM
     mustermann (1.0.3)
     nokogiri (1.10.5)
       mini_portile2 (~> 2.4.0)
-    pg (1.2.3)
+    pg (0.21.0)
     pry (0.12.2)
       coderay (~> 1.1.0)
       method_source (~> 0.9.0)
@@ -59,6 +59,11 @@ GEM
       rack
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
+    rails_12factor (0.0.3)
+      rails_serve_static_assets
+      rails_stdout_logging
+    rails_serve_static_assets (0.0.5)
+    rails_stdout_logging (0.0.5)
     rake (13.0.1)
     regexp_parser (1.6.0)
     require_all (3.0.0)
@@ -115,10 +120,11 @@ DEPENDENCIES
   database_cleaner!
   i18n
   json
-  pg
+  pg (~> 0.20)
   pry
   pry-nav
   rack-test
+  rails_12factor
   rake
   require_all
   rspec
