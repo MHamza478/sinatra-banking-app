@@ -9,4 +9,7 @@ test:
 production:
   adapter: postgresql
   database: db/development
-  socket: /var/run/postgresql/.s.PGSQL.5432
+  encoding: unicode
+  pool: 5
+  timeout: 5000
+  host: localhost
